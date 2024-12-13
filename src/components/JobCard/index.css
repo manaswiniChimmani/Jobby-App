@@ -1,0 +1,143 @@
+.card-container {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  list-style-type: none;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.rating-container {
+  margin-top: 0;
+}
+
+.company-logo {
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+.title-h1 {
+  color: #ffffff;
+  font-size: 23px;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.star-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.rating {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: 5px;
+}
+
+.job-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.loc-job-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 40%; */
+
+  /* align-items: center; */
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.location-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.location {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.job-type {
+  margin-top: 0;
+  margin-left: 5px;
+}
+
+.pkg {
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.desc-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+.desc {
+  color: #f8fafc;
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .card-container {
+    width: 100%;
+  }
+
+  .title-h1 {
+    font-size: 20px;
+  }
+
+  /* .loc-job-type-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+  } */
+
+  /* .location-icon {
+    color: #ffffff;
+    font-size: 10px;
+    margin: 5px;
+  } */
+
+  .job-details-container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+  }
+}

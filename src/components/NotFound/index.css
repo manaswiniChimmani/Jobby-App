@@ -1,0 +1,17 @@
+.not-found-bg-container {
+  background-color: #272727;
+  height: 100vh;
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.h1 {
+  color: #ffffff;
+}
+.p1 {
+  color: #ffffff;
+}
